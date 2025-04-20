@@ -8,25 +8,25 @@ iris_data <- read_csv("https://raw.githubusercontent.com/Bushra-Khan49/Intro-to-
 str(iris_data)
 summary(iris_data)
 
-# Counting species
+# Counting variety
 iris_data %>%
-  count(Species)
+  count(variety)
 
 # Calculating mean
 iris_data %>%
-  group_by(Species) %>%
-  summarise(across(where(is.numeric), mean, na.rm = TRUE))
+  group_by(variety) %>%
+  summarise(across(where(is.numeric), ~mean(.x, na.rm = TRUE)))
 
 # Boxplot - Sepal Length
-ggplot(iris_data, aes(x = Species, y = Petal.Width, color = Species)) + 
+ggplot(iris_data, aes(x = variety, y = sepal.length, fill = variety)) + 
   geom_boxplot() +
-  labs(title = "Petals Length Distribution by Species") +
+  labs(title = "Sepal Length by Variety", x = "Variety", y = "Sepal Length") +
   theme_minimal()
 
 # Scatter plot - Petal Distribution
-ggplot(iris_data, aes(x = Petal.Length, y = Petal.Width, color = Species)) +
+ggplot(iris_data, aes(x = petal.length, y = petal.width, color = variety)) +
   geom_point(size = 3) +
-  labs(title = "Petal Length vs Width") +
+  labs(title = "Petal Dimensions by Variety", x = "Petal Length", y = "Petal Width") +
   theme_minimal()
 
 
