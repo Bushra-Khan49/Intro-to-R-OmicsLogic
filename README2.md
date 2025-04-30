@@ -19,11 +19,14 @@ This mini-project explores the classic **Iris dataset** using R and `tidyverse`.
 ## Sample Output
 
 - **Sepal Length Boxplot** grouped by `variety`
-- ![Sepal Length Boxplot] ![iris_dataset_results1](https://github.com/user-attachments/assets/b97b3a0b-243d-468c-81eb-706dbe43bb98)
+- ![iris_dataset_results1](https://github.com/user-attachments/assets/b97b3a0b-243d-468c-81eb-706dbe43bb98)
   
 - **Petal Dimensions Scatterplot** colored by species
-- ![Petal Dimensions Scatterplot] ![iris_dataset_results2](https://github.com/user-attachments/assets/557eb848-dfab-48b8-be24-ba7c59f23e6e)
-- 
+- ![iris_dataset_results2](https://github.com/user-attachments/assets/557eb848-dfab-48b8-be24-ba7c59f23e6e)
+
+- **Sepal Length vs Sepal Width scatterplot** grouped by 'variety'
+- ![iris_dataset_results3](https://github.com/user-attachments/assets/107b7446-1672-425b-83ff-03611c1fbb5c)
+
 
 
 ---
