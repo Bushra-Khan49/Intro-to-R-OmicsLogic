@@ -30,5 +30,10 @@ ggplot(iris_data, aes(x = petal.length, y = petal.width, color = variety)) +
   theme_minimal()
 
 # Scatter plot - Sepal length vs Sepal width
+library (ggplot2)
+ggplot(iris_data, aes(x = sepal.length, y = sepal.width, color = variety)) +
+  geom_point(size = 3) +
+  labs(title = "Sepal Dimensions by Variety", x = "Sepal Length", y = "Sepal Width") +
+  theme_minimal()
 
 
