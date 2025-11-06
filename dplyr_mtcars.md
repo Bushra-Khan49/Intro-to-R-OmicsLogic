@@ -1,7 +1,11 @@
-# 🏎️ mtcars Data Exploration Using dplyr (R)
+# 🏎️ mtcars Data Exploration using dplyr (R)
 
-This project demonstrates basic data manipulation and analysis in R using the **dplyr** package.  
-We use the built-in `mtcars` dataset to perform filtering, mutating, sorting, grouping, and summarizing operations.
+This project demonstrates basic data manipulation and exploratory data analysis in **R** using the **dplyr** package.  
+The built-in `mtcars` dataset is used to perform filtering, creating new variables, sorting, grouping, and summarizing operations.
 
 ---
 
+## 📂 Project Structure
+my-mtcars-project/
+├── README.md       
+└── analysis.R       
