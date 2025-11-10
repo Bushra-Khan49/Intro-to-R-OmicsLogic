@@ -14,7 +14,7 @@ The analysis includes:
 4. Visualizing data distributions and relationships with **ggplot2**
 
 ---
-
+<br><br>
 ## Load Libraries and Dataset
 
 ```r
@@ -28,6 +28,7 @@ iris_data <- read_csv("https://raw.githubusercontent.com/Bushra-Khan49/Intro-to-
 str(iris_data)
 summary(iris_data)
 ```
+<br><br>
 ##  Data Exploration and Summary
 
 ## 1.Count of Flower Varieties
@@ -41,7 +42,7 @@ iris_data %>%
   group_by(variety) %>%
   summarise(across(where(is.numeric), ~mean(.x, na.rm = TRUE)))
 ```
-
+<br><br>
 ## Data Visualization
 
 ## 3.Boxplot — Sepal Length by Variety
@@ -68,7 +69,7 @@ ggplot(iris_data, aes(x = sepal.length, y = sepal.width, color = variety)) +
 ```
 
 ---
-
+<br><br>
 # Conclusion
 
 Through this analysis, I :
