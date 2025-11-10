@@ -1,6 +1,5 @@
 # Iris Data Exploration using tidyverse
-
-**Author:** Bushra Khan  
+ 
 **Dataset:** [Iris Dataset (CSV on GitHub)](https://raw.githubusercontent.com/Bushra-Khan49/Intro-to-R-OmicsLogic/refs/heads/main/iris.csv)
 
 ---
