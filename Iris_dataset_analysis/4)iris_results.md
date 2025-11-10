@@ -28,4 +28,4 @@
   
 ---
 
-Part of my R learning journey during my project work — more analyses to come!
+This was part of my R learning journey during my project work — more analyses to come!
